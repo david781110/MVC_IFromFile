@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Index1";
+}
+
+<h1>上傳單一圖片</h1>
+
+<form asp-action="UploadFile" enctype="multipart/form-data">
+    <label>選擇圖片</label>
+    <input type="file" name="File1" style="width:350px"/>
+    <input type="submit" value="上傳圖片"/>
+</form>
+

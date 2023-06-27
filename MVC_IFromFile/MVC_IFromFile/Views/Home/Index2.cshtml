@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Index1";
+}
+
+<h1>上傳複數圖片</h1>
+
+<form asp-action="UploadFiles" enctype="multipart/form-data">
+    <label>選擇圖片</label>
+    <input type="file" name="Files" style="width:350px" multiple/>
+    <input type="submit" value="上傳圖片" />
+</form>
+
